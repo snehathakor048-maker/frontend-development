@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+
+.btn-primary:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
